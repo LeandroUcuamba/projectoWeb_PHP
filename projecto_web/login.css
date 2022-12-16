@@ -1,0 +1,41 @@
+body{
+    background: rgb(86, 200, 235);
+}
+
+.glass{
+    width: 400px;
+    height: 460px;
+    margin: 0px auto;
+    margin-top: 110px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    border-radius: 15px;
+    background: radial-gradient(at 50% 0%, rgba(247, 201, 0, 0.363), rgba(255, 255, 255, 0.4));
+    box-shadow: 10px 10px 30px rgba(233, 165, 40, 0.781);
+    transition: all 0.3s ease-in-out;
+}
+
+.glass:hover{
+transform: scale(1.05);
+background: radial-gradient(at 20% 0%, rgba(247, 201, 0, 0.363), rgba(255, 255, 255, 0.4));
+box-shadow: 10px 10px 30px rgba(233, 165, 40, 0.781);
+}
+
+.glass strong label{
+    font-size: 48px;
+    margin-left: 140px;
+
+}
+
+.campos{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+
+button{
+    width: 340px;
+    height: 30px;
+    margin-top:  40px;
+    margin-left: 30px;
+    
+}
